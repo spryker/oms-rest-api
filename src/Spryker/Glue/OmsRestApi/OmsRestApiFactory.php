@@ -13,9 +13,6 @@ use Spryker\Glue\OmsRestApi\Processor\Mapper\OmsStateMapperInterface;
 
 class OmsRestApiFactory extends AbstractFactory
 {
-    /**
-     * @return \Spryker\Glue\OmsRestApi\Processor\Mapper\OmsStateMapperInterface
-     */
     public function createOmsStateMapper(): OmsStateMapperInterface
     {
         return new OmsStateMapper();
